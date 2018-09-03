@@ -29,7 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.firtsactivity.FirtsActivity"></activity>
+        <activity android:name=".ui.firtsactivity.FirtsActivity">
+            <meta-data android:name="com.google.android.gms.API_Key"
+                android:value="AIzaSyBtziGWfr8zcncmUfFJPtoa4JBsCOkrMH4"/>
+        </activity>
     </application>
+
 
 </manifest>

@@ -6,9 +6,11 @@ import android.os.Bundle
 import android.view.View
 import com.example.shin.go4lunch.R
 import kotlinx.android.synthetic.main.activity_login.*
+import org.jetbrains.anko.startActivity
 
 
 class LoginActivity : AppCompatActivity(), LoginContract.View {
+
 
 
     val loginPresenter = LoginPresenter()
@@ -23,27 +25,22 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
         activity= this
 
           google_btn_connection.setOnClickListener(View.OnClickListener {
-            loginWithGoogle()
-
+              setLogginGo4Lunch()
         })
 
         facebook_btn_connection.setOnClickListener(View.OnClickListener {
-            loginWhitFacebook()
-
+            setLogginGo4Lunch()
         })
 
 
     }
 
 
+    override fun setLogginGo4Lunch() {
+        loginPresenter.userIsLogged(activity)
 
-    override fun loginWithGoogle() {
-        loginPresenter.setConnectedGoogle(activity)
     }
 
-    override fun loginWhitFacebook() {
-        loginPresenter.setConnectedFacebook(activity)
-    }
 
 
 }

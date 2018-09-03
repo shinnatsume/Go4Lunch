@@ -6,13 +6,12 @@ import android.content.Context
 interface LoginContract {
 
     interface View{
-         fun loginWithGoogle()
-        fun loginWhitFacebook()
+        fun setLogginGo4Lunch()
+
     }
 
     interface Presenter{
-        fun setConnectedGoogle(activity: Activity)
-        fun setConnectedFacebook(activity: Activity)
-        fun isLoged(activity: Activity)
+        fun userIsLogged(activity: Activity)
+
             }
 }

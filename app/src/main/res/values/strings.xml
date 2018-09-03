@@ -6,7 +6,7 @@
     <string name="facebookConnect">sing in whit facebook</string>
     <string name="googleConnect">sing in whit google </string>
     <string name="slogan">Find a nice restaurant and invite your co-workers for lunch!</string>
-
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve"> AIzaSyBtziGWfr8zcncmUfFJPtoa4JBsCOkrMH4</string>
     <string name="facebook_application_id" translatable="false">2063824596969928</string>
     <string name="fb_login_protocol_scheme" translatable="false" >fb2063824596969928</string>
 
