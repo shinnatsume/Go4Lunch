@@ -1,6 +1,6 @@
 package com.example.shin.go4lunch.ui.firtsactivity
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.shin.go4lunch.R
 import com.example.shin.go4lunch.ui.firtsactivity.fragment.MyMapFragment

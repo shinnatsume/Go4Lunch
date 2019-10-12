@@ -1,6 +1,6 @@
 package com.example.shin.go4lunch.RestauranlstDetai
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.shin.go4lunch.R
 
